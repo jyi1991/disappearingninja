@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Terminal/Git/Github Demo</title>
+    <meta charset = "utf-8">
+    <link rel ="stylesheet" href = "assignment_3.css">
+    <title> JQuery practice</title>
     <script type = "text/javascript" src = "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type = "text/javascript">
         $(document).ready(function(){
-
           $("img").click(function(){
             var temp = $(this).attr("data-alt-src")
             var cat = $(this).attr("src")
             $(this).attr("src",temp);
             $(this).attr("data-alt-src",cat);
-
           });
-
         });
     </script>
   </head>
@@ -27,10 +25,7 @@
       <img src = "cat2.png" data-alt-src = "ninja2.png">
       <img src = "cat3.png" data-alt-src = "ninja3.png">
       <img src = "cat4.png" data-alt-src = "ninja4.png">
-
     </div>
   </div>
-
-    
   </body>
 </html>
