@@ -3,6 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>Terminal/Git/Github Demo</title>
+    <script type = "text/javascript">
+        $(document).ready(function(){
+
+          $("img").click(function(){
+            var temp = $(this).attr("data-alt-src")
+            var cat = $(this).attr("src")
+            $(this).attr("src",temp);
+            $(this).attr("data-alt-src",cat);
+
+          });
+
+        });
+    </script>
   </head>
   <body>
     <div id = "wrapper">
